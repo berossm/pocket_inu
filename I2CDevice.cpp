@@ -36,7 +36,7 @@ using namespace std;
 
 #define HEX(x) setw(2) << setfill('0') << hex << (int)(x)
 
-namespace exploringBB {
+namespace I2C {
 
 /**
  * Constructor for the I2CDevice class. It requires the bus number and device number. The constructor

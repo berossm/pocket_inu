@@ -29,7 +29,7 @@
 #define PB_I2C_1 "/dev/i2c-1"
 #define PB_I2C_2 "/dev/i2c-2"
 
-namespace exploringBB {
+namespace I2C {
 
 /**
  * @class I2CDevice
