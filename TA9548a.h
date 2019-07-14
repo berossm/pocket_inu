@@ -14,7 +14,10 @@ namespace I2C {
 
 
     private:
+        unsigned int I2CBus, I2CAddress;
         int current_selected;
+
+
     };
 
 };

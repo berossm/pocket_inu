@@ -3,6 +3,8 @@
 namespace I2C {
     TA9548A::TA9548A(unsigned int I2CBus, unsigned int I2CAddress):
         I2CDevice(I2CBus, I2CAddress) {
+            this->I2CAddress = I2CAddress;
+	        this->I2CBus = I2CBus;
             this->current_selected = 0;
         }
 
